@@ -1,0 +1,37 @@
+body {
+    background-color: #f4eaea;    
+}
+
+
+h1 {
+    text-align: center;
+    padding: 10px;
+    background-color: #27845d;
+    color: rgb(255, 254, 254);
+}
+
+h3{
+    border: 3px solid #398f11;
+    border-radius: 15px; 
+    padding: 10px; /* Adiciona espaço interno ao redor do texto */
+    width: fit-content; /* Ajusta a largura da caixa ao conteúdo */
+    margin: 20px auto; /* Centraliza a caixa na página */
+}
+
+
+p {
+    color: #666;
+    font-size: 18px;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between; /* ou use space-around, space-evenly conforme necessário */
+}
+
+img {
+    width: 20%; /* Ajuste conforme necessário para garantir que as imagens caibam na linha */
+    aspect-ratio: 4 / 3; /* Mantém a proporção 4:3, ajuste conforme necessário */
+    object-fit: cover; /* Garante que a imagem preencha o contêiner sem distorção */
+}

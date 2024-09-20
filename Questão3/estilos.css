@@ -1,0 +1,39 @@
+
+body{
+    background-image: url("fundo.jpg")
+    
+}
+img{
+    width: 150px;
+    height: auto;
+    border-radius: 20px;
+}
+/* Estilo para o contêiner principal */
+.container {
+    display: flex; /* Define o layout flexível */
+    justify-content: space-evenly; /* Espaça os itens uniformemente */
+    padding: 20px;
+}
+
+/* Estilo para cada caixa */
+.box {
+    border: none; /* Define a borda */
+    padding: 20px; /* Adiciona espaço interno */
+    width: 200px; /* Define a largura das caixas */
+    text-align: center; /* Centraliza o texto */
+    background-color: #6e72e4; /* Cor de fundo */
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5); /* Adiciona a sombra */
+    font-size: 20px;
+}
+
+.box1 {
+    border: none; /* Define a borda */
+    padding: 20px; /* Adiciona espaço interno */
+    width: 200px; /* Define a largura das caixas */
+    text-align: center; /* Centraliza o texto */
+    background-color: #efa4d5; /* Cor de fundo */
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5); /* Adiciona a sombra */
+    font-size: 20px
+    
+}
+

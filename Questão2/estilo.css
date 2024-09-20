@@ -1,0 +1,18 @@
+body{
+    background: linear-gradient(to right, #d0e3c4, #a9f87b)
+}
+
+h1{
+    color:rgb(69, 163, 69)
+}
+
+p{
+    font-family: Georgia, serif;
+    font-size: 30px;
+
+}
+
+a {
+    color: blue; /* Cor inicial do link */
+    
+}
